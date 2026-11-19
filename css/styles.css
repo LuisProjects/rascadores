@@ -101,6 +101,11 @@ footer {
     width: 6rem;
     height: 6rem;
     object-fit: contain;
+    padding: 0.6rem;
+    background-color: #F5EFE6;
+    border: 0.2rem solid #4A5D4E;
+    border-radius: 50%;
+    box-shadow: 0 0.3rem 0.8rem rgba(47, 41, 37, 0.35);
 }
 
 .header-nav a {
