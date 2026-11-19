@@ -1,9 +1,10 @@
-Entrega final · Proyecto Final noviembre 2026
-Talento Tech
+# Entrega final · Proyecto Final noviembre 2026
 
-Sitio web:  MiauShop
+**Escuela:** Talento Tech
 
+**Sitio web:** MiauShop
 
-Formulario de contacto: funcionando con Formspree.
+**Formulario de contacto:** funcionando con Formspree.
 
-Carrito de compras: funcionando.
+**Carrito de compras:** funcionando.
+
