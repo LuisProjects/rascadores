@@ -19,14 +19,27 @@
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
+                <li><a href="./carrito.html">Carrito <span id="contador-carrito" class="carrito-contador">0</span></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Carrito de compras</h2>
-            <h2>Próximamente</h2>
+        <section class="carrito-seccion">
+            <h1>Carrito de compras</h1>
+            <div class="carrito-contenido">
+                <ul id="lista-carrito" class="carrito-lista"></ul>
+                <p id="carrito-vacio" class="carrito-vacio">
+                    Tu carrito está vacío. Volvé al inicio y elegí tu rascador favorito.
+                </p>
+                <p id="mensaje-carrito" class="mensaje-carrito" role="status" aria-live="polite"></p>
+                <div class="carrito-footer">
+                    <p class="carrito-total">Total: $<span id="total-carrito">0</span></p>
+                    <div class="carrito-acciones">
+                        <button type="button" id="vaciar-carrito" class="btn btn-vaciar">Vaciar carrito</button>
+                        <button type="button" id="finalizar-compra" class="btn bg-secondary text-dark">Finalizar compra</button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -40,5 +53,9 @@
             </ul>
         </nav>
     </footer>
+    <script src="../js/storage.js" defer></script>
+    <script src="../js/actualizar_carrito.js" defer></script>
+    <script src="../js/agregar_carrito.js" defer></script>
+    <script src="../js/carrito.js" defer></script>
 </body>
 </html>

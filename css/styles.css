@@ -246,6 +246,123 @@ footer .footer-list {
     outline: none;
  }
 
+/* -------------------------------------------------------------------------- */
+/*                                  Carrito                                   */
+/* -------------------------------------------------------------------------- */
+.carrito-contador {
+    background-color: #E3B23C;
+    padding: 0.2rem 0.7rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+}
+
+.mensaje-productos,
+.carrito-vacio,
+.mensaje-carrito {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mensaje-productos--error {
+    color: #b00020;
+}
+
+.carrito-seccion {
+    width: 100%;
+    max-width: 90rem;
+}
+
+.carrito-contenido {
+    background-color: #edd4ae;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.carrito-lista {
+    list-style: none;
+}
+
+.carrito-item {
+    background-color: #fff7fb;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+}
+
+.carrito-item__img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.carrito-item__info {
+    flex: 1;
+}
+
+.carrito-item__titulo {
+    text-align: left;
+    margin: 0 0 1rem;
+}
+
+.carrito-item__controles,
+.carrito-acciones {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-cantidad,
+.btn-eliminar {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-cantidad {
+    background-color: #4A5D4E;
+    color: #ffffff;
+}
+
+.btn-eliminar {
+    background-color: #D97757;
+}
+
+.carrito-footer {
+    border-top: 1px solid #4A5D4E;
+    padding-top: 2rem;
+}
+
+.carrito-total {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+.carrito-acciones {
+    justify-content: flex-end;
+}
+
+.btn-vaciar {
+    background-color: #dddddd;
+}
+
+@media (max-width: 700px) {
+    .carrito-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .carrito-item__controles {
+        flex-wrap: wrap;
+    }
+}
+
  .grupo-input textarea {
     min-height: 10rem;
     resize: vertical;

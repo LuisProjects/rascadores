@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "titulo": "Rascador modelo 1",
+    "descripcion": "Rascador para pared",
+    "precio": 9700,
+    "imagen": "img/gato3.jpg",
+    "alt": "Imagen rascador modelo 1"
+  },
+  {
+    "id": 2,
+    "titulo": "Rascador modelo 2",
+    "descripcion": "Rascador vertical móvil",
+    "precio": 12300,
+    "imagen": "img/gato4.jpg",
+    "alt": "Imagen rascador modelo 2"
+  },
+  {
+    "id": 3,
+    "titulo": "Rascador modelo 3",
+    "descripcion": "Rascador tipo poste móvil",
+    "precio": 13800,
+    "imagen": "img/gato6.jpg",
+    "alt": "Imagen rascador modelo 3"
+  },
+  {
+    "id": 4,
+    "titulo": "Rascador modelo 4",
+    "descripcion": "Rascador cuna relax",
+    "precio": 15200,
+    "imagen": "img/gato10.jpg",
+    "alt": "Imagen rascador modelo 4"
+  }
+]

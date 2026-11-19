@@ -22,7 +22,7 @@
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/carrito.html">Carrito</a></li>
+                <li><a href="./pages/carrito.html">Carrito <span id="contador-carrito" class="carrito-contador">0</span></a></li>
             </ul>
         </nav>
     </header>
@@ -37,39 +37,8 @@
 
         <section>
             <h2 class="titulo-producto text-secondary">Nuestros rascadores</h2>
-            <div class="contenedor-tarjeta">
-                <article class="card text-dark">
-                    <img src="./img/gato3.jpg" alt="imagen rascador modelo 1" />
-                    <h3>Rascador modelo 1</h3>
-                    <p>Rascador para pared</p>
-                    <p>$ 9700</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card text-dark">
-                    <img src="./img/gato4.jpg" alt="imagen rascador modelo 2" />
-                    <h3>Rascador modelo 2</h3>
-                    <p>Rascador vertical móvil</p>
-                    <p>$ 12300</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card text-dark">
-                    <img src="./img/gato6.jpg" alt="imagen rascador modelo 3" />
-                    <h3>Rascador modelo 3</h3>
-                    <p>Rascador tipo poste móvil</p>
-                    <p>$ 13800</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card text-dark">
-                    <img src="./img/gato10.jpg" alt="imagen rascador modelo 4" />
-                    <h3>Rascador modelo 4</h3>
-                    <p>Rascador cuna relax</p>
-                    <p>$ 15200</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-            </div>
+            <p id="mensaje-productos" class="mensaje-productos">Cargando productos...</p>
+            <div class="contenedor-tarjeta" id="productos-container"></div>
 
         </section>
     </main>
@@ -86,5 +55,9 @@
         </nav>
     </footer>
     
+    <script src="./js/storage.js" defer></script>
+    <script src="./js/actualizar_carrito.js" defer></script>
+    <script src="./js/agregar_carrito.js" defer></script>
+    <script src="./js/index.js" defer></script>
 </body>
 </html>
